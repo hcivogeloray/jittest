@@ -19,11 +19,11 @@ android {
 }
 
 def importantProcessor() {
-    project(":importantlib")
+    "com.github.hcivogeloray.jittest:importantlib:master-SNAPSHOT"
 }
 
 def anotherProcessor() {
-    project(":anotherlib")
+    "com.github.hcivogeloray.jittest:anotherlib:master-SNAPSHOT"
 }
 
 dependencies {
