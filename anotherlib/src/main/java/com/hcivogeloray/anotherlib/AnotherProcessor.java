@@ -11,7 +11,7 @@ public class AnotherProcessor {
   }
 
   public String process(String data) {
-    return new StringBuilder(data)
+    return data + "->" + new StringBuilder(data)
         .reverse()
         .toString();
   }

@@ -11,6 +11,6 @@ public class ImportantProcessor {
   }
 
   public int calculateTheAnswer() {
-    return 42;
+    return 42 * 3;
   }
 }
